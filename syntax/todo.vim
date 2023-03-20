@@ -14,7 +14,7 @@ syntax match comment '\<\@<!#.*$'
 syntax match type '\<TODO\>'
 syntax match todo '\<FIXME\>'
 syntax match error '\<XXX\>'
-syntax match special '\<DONE\>'
+syntax match string '\<DONE\>'
 syntax match character '\<WIP\>'
 
 let b:current_syntax = 'todo'
