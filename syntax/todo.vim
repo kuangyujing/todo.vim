@@ -7,7 +7,6 @@ if exists("b:current_syntax")
 endif
 
 syntax match identifier '^\s*[\*]'
-syntax match warningmsg '^\s-[\*]'
 syntax match comment '\<\@<!#.*$'
 
 let b:current_syntax = 'todo'
